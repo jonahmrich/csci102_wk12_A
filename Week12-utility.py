@@ -4,11 +4,16 @@ def PrintOutput(string):
 def LoadFile(filename):
     with open(filename, 'r') as f:
         contents = f.readlines()
-    PrintOutput(contents)
+    return contents
 
 def UpdateString(str1, str2, index):
     str1a = str1[:index] + str2
     str1b = str1[index + 1:]
     str1 = str1a + str1b
-    PrintOutput(str1)
+    return str1
+
+def FindWordCount(file_list, word):
+    file_str = ' '.join(file_list)
+    count = file_str.count(word.lower()) + file_str.count(word.capitalize())
+    return count
     
