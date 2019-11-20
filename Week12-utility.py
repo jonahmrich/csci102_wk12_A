@@ -40,3 +40,11 @@ def Intersection(list1, list2):
         if j in list1:
             list3.append(j)
     return list3
+
+def NotIn(listA, listB):
+    listC = listA
+    for k in listB:
+        if k in listA:
+            for l in range(listA.count(k)):
+                listC.remove(k)
+    return listC
