@@ -33,3 +33,10 @@ def Union(lista, listb):
         else:
             listc.append(i)
     return listc
+
+def Intersection(list1, list2):
+    list3 = []
+    for j in list2:
+        if j in list1:
+            list3.append(j)
+    return list3
