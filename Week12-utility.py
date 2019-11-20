@@ -24,3 +24,12 @@ def ScoreFinder(names, scores, name):
         PrintOutput('%s got a score of %d' %(name.capitalize(), scores[names.index(name.capitalize())]))
     else:
         PrintOutput('player not found')
+
+def Union(lista, listb):
+    listc = lista
+    for i in listb:
+        if i in lista:
+            continue
+        else:
+            listc.append(i)
+    return listc

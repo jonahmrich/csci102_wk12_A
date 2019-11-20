@@ -1,4 +1,4 @@
-# csci102_wk12_A
-# Week 12 Part A
-**Author:** Jonah Rich
-**Section:** A
+# Incremental Build Model
+# Jonah Rich
+# CSCI 102 - Section A
+# Week 12 - Part A
