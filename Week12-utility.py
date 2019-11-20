@@ -1,3 +1,8 @@
+# https://github.com/jonahmrich/csci102_wk12_A
+# Jonah Rich
+# CSCI 102 - Section A
+# Week 12 - Part B
+
 def PrintOutput(string):
     print('OUTPUT', string)
 
